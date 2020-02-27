@@ -1,0 +1,12 @@
+<template>
+    <template if:true={jsContacts.data}>
+        <div class="card">
+        <h3 class="header">CEO's List</h3>
+         <template for:each={jsContacts.data} for:item="c">      
+            <p key={c.Id} class="title"  >{c.Name}  </p>
+        </template>
+     
+       <h3 class="footer"> Demo - Wire an Apex Method to property </h3>
+    </div>
+    </template>
+</template>

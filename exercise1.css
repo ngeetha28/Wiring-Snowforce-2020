@@ -1,0 +1,29 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background: #fff;
+  }
+  
+  .title {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  h3.header{
+    background-color:burlywood;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+  
+  }
+  h3.footer{
+      background-color:burlywood;
+      color: black;
+      font-size: 25px;
+      padding: 10px;
+  
+  }
