@@ -1,0 +1,14 @@
+<template>
+        <template if:true={jsRecord}>
+            <h3 class="header">Contact Details</h3>
+                <p class="details">{name}</p>
+                <p class="details" >{title}</p>
+                <p class="details" >
+                    <lightning-formatted-phone value={phone}></lightning-formatted-phone>
+                </p>
+                <p class="details">
+                    <lightning-formatted-email value={email}></lightning-formatted-email>
+                </p>
+            <h3 class="footer"> Demo - Wire a Wire Adapter to Function </h3>
+        </template>
+</template>

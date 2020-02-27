@@ -1,0 +1,14 @@
+<template>
+    <template if:true={contact.data}>
+                <h3 class="header">Contact Details</h3>
+                    <p class="details">{name}</p>
+                    <p class="details" >{title}</p>
+                    <p class="details">
+                        <lightning-formatted-phone value={phone}></lightning-formatted-phone>
+                    </p>
+                    <p class="details">
+                        <lightning-formatted-email value={email}></lightning-formatted-email>
+                    </p>
+                <h3 class="footer"> Demo - Wire a Wire Adapter to property </h3>
+    </template>
+</template>
